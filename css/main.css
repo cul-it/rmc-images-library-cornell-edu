@@ -1,0 +1,137 @@
+/*
+-----------------------------------------------------
+CSS file for exhibition pages
+FileName:    main.css
+Version:     2005.6.09
+-----------------------------------------------------
+*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 15px;
+	font-weight: normal;
+	color: #000;
+	background-color: #FFF;
+	
+	
+}
+
+#mainbody{
+	
+}
+
+
+#maincaption {
+	margin: 0px auto; 
+	padding: 330px 0px 20px 0px;
+	width: 800px;
+	background-image: url(../images/bodybg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	
+
+}
+
+#footer {
+	margin: 0;
+	padding: 10px;
+	font-family: verdana, arial, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FFF;
+	background-color: #000;
+}
+
+
+#footer p{
+	margin: 8px 0px 0px 0px;
+}
+
+#footer a:link{
+	color: #FFF;
+}
+
+#footer a:visited{
+	color: #FFF;
+}
+
+#footer a:hover{
+	color: #FFF;
+}
+
+#footer a:active{
+	color: #FFF;
+}
+
+.imageinsertleft{
+	margin: 0px 15px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	float: left;
+}
+
+h1{
+	font-size: 18px;
+}
+
+a:link {
+	color: #000;
+}
+a:visited {
+	color: #000;
+}
+a:hover {
+	color: #000;
+}
+a:active {
+	color: #000;
+}
+
+img {
+
+	border: 0px;
+}
+
+
+	
+#cu-identity {
+	margin: 0 auto;
+	width: 100%;
+	height: 45px;
+	font-family: verdana, arial, sans-serif;
+	background: #000;
+	}
+
+#cu-logo {
+	margin: 0px 10px;
+	float: left
+	}
+	
+#cu-logo a {
+	display: block;
+	width: 180px;
+	height: 45px;
+	background: url(../images/layout/cu_logo.gif) no-repeat top left;
+	}
+	
+#cu-logo img {
+	display: none;
+	}
+	
+#cu-search {
+	padding-top: 10px;
+	}
+	
+#cu-search a {
+	float: right;
+	padding: 5px 15px;
+	font-size: 11px;
+	color: #fff;
+	text-decoration: none;
+	border: none;
+	}
+	
+#cu-search a:hover {
+	background: #555;
+	}
